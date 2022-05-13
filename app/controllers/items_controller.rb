@@ -20,7 +20,7 @@ class ItemsController < ApplicationController
   def check_list_price
     list = check_list_params
 
-    total_amount = Item.get_list_price(list)
+    total_amount = ItemService.get_list_price(list)
 
     render json: { total: total_amount }
   end
