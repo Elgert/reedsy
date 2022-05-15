@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To start the rails api:
 
-Things you may want to cover:
+- Pull the repo.
+- Run inside the folder:
+  - rails db:migrate
+  - rails db:seed
+  - rails s
 
-* Ruby version
 
-* System dependencies
+To test out the API you can use the Postman Collection I created:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- https://www.getpostman.com/collections/d34974dc086970fbc2bf
