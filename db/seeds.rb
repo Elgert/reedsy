@@ -19,5 +19,5 @@ items = [
 ]
 
 items.each do |item|
-  Item.create(item)
+  Item.find_or_create_by(item)
 end
